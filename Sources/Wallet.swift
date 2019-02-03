@@ -48,7 +48,7 @@ public final class Wallet: Hashable {
             return account
         }
 
-        let coin = key.coin ?? Coin.ethereum // Default
+        let coin = key.coin ?? Coin.moac // Default
 
         guard let address = PrivateKey(data: try key.decrypt(password: password))?.publicKey(for: coin).address else {
             throw DecryptError.invalidPassword

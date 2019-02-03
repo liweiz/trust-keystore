@@ -1,10 +1,10 @@
 PODS:
-  - BigInt (3.0.1):
+  - BigInt (3.1.0):
     - SipHash (~> 1.2)
   - CryptoSwift (0.10.0)
-  - SipHash (1.2.0)
-  - SwiftLint (0.25.0)
-  - TrezorCrypto (0.0.6)
+  - SipHash (1.2.2)
+  - SwiftLint (0.23.0)
+  - TrezorCrypto (0.0.9)
   - TrustCore (0.0.7):
     - BigInt
     - TrezorCrypto (~> 0.0.6)
@@ -12,9 +12,9 @@ PODS:
 DEPENDENCIES:
   - BigInt
   - CryptoSwift (~> 0.10.0)
-  - SwiftLint
+  - SwiftLint (= 0.23.0)
   - TrezorCrypto
-  - TrustCore (from `https://github.com/TrustWallet/trust-core`, branch `master`)
+  - TrustCore (from `https://github.com/liweiz/trust-core-moac`, branch `commit_f987ee1`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -26,22 +26,22 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   TrustCore:
-    :branch: master
-    :git: https://github.com/TrustWallet/trust-core
+    :branch: commit_f987ee1
+    :git: https://github.com/liweiz/trust-core-moac
 
 CHECKOUT OPTIONS:
   TrustCore:
-    :commit: 4caee499a817638ce666b0c4448734cf933912f7
-    :git: https://github.com/TrustWallet/trust-core
+    :commit: e2704a0169e634b62080f9750e154b65425f6cf8
+    :git: https://github.com/liweiz/trust-core-moac
 
 SPEC CHECKSUMS:
-  BigInt: 8e8a52161c745cd3ab78e3dc346a9fbee51e6cf6
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
   CryptoSwift: 6c778d69282bed3b4e975ff97a79d074f20bb011
-  SipHash: c6e9e43e9c531b5bc6602545130c26194a6d31ce
-  SwiftLint: e14651157288e9e01d6e1a71db7014fb5744a8ea
-  TrezorCrypto: bea2dab002f9a5fe885df004694b9ece52dc088b
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+  SwiftLint: 6ddf7d305644c2239cb768a11d97cce804816691
+  TrezorCrypto: bfeea47a052dca2c77d4a39e1e183865e52de14d
   TrustCore: 6c7deb45f03664d650da712bb5a19b33df0534a6
 
-PODFILE CHECKSUM: 353b4a2821450d544cdacb08929aca78d0884419
+PODFILE CHECKSUM: 27bea0ce82030d5621cab4f12e450c98fe8b499a
 
 COCOAPODS: 1.5.3

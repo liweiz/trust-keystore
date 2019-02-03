@@ -117,8 +117,9 @@ public final class Account: Codable, Hashable {
              .poa,
              .ethereumClassic,
              .callisto,
-             .gochain:
-            maybeAddress = EthereumAddress(data: addressData, coin: coin)
+             .gochain,
+             .moac:
+            maybeAddress = MoacAddress(data: addressData, coin: coin)
         }
 
         guard let address = maybeAddress else {
