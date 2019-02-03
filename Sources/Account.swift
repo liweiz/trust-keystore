@@ -118,7 +118,8 @@ public final class Account: Codable, Hashable {
              .ethereumClassic,
              .callisto,
              .gochain,
-             .moac:
+             .moac,
+             .testnetAllCoins:
             maybeAddress = MoacAddress(data: addressData, coin: coin)
         }
 

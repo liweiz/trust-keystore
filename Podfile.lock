@@ -31,7 +31,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TrustCore:
-    :commit: e2704a0169e634b62080f9750e154b65425f6cf8
+    :commit: 626937b48028b3ecdcc44f0b39bbb43b01a51201
     :git: https://github.com/liweiz/trust-core-moac
 
 SPEC CHECKSUMS:
