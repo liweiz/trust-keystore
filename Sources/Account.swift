@@ -119,6 +119,8 @@ public final class Account: Codable, Hashable {
              .callisto,
              .gochain,
              .moac,
+             .moacTestnet,
+             .moacLocalPrivate,
              .testnetAllCoins:
             maybeAddress = MoacAddress(data: addressData, coin: coin)
         }
